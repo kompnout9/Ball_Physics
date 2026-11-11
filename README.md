@@ -20,17 +20,9 @@ pygame-ce 2.5.2 or newer
 
 The code uses pygame.mouse.get_just_pressed(), which is available in pygame-ce (the community edition) but not in the original pygame package.
 
-Installation
-bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
+     # On Windows: venv\Scripts\activate
 
 pip install pygame-ce
-Usage
-bash
 python main.py
 Action	Result
 Left mouse click	Spawn a ball at the cursor position
