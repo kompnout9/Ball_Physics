@@ -18,9 +18,6 @@ Requirements
 Python 3.9+
 pygame-ce 2.5.2 or newer
 
-The code uses pygame.mouse.get_just_pressed(), which is available in pygame-ce (the community edition) but not in the original pygame package.
-
-     # On Windows: venv\Scripts\activate
 
 pip install pygame-ce
 python main.py
